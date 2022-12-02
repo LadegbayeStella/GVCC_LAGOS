@@ -262,7 +262,15 @@ background-size: cover;
 background-image: url(../img/app_bg-1024x683.jpg);
 }
 #wrap{
-margin-top: 20rem;
+margin-top: 2rem;
+margin-left: 20rem;
+width: 505rem;
+line-height: 1rem;
+font-weight: bolder;
+}
+#wrap p{
+  font-size: 5rem;
+  color: purple;
 }
 
 .hero .container-fluid {
