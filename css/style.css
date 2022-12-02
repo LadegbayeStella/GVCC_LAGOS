@@ -159,7 +159,7 @@ a:focus {
   border-radius: 50%;
 }
 #rad{
-  height: 2z0rem;
+  height: 12rem;
 }
 
 .navbar .navbar-brand img {
@@ -259,10 +259,11 @@ a:focus {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(../img/app_bg-1024x683.jpg);
+	/* background-image: url(../img/2cb6ab05-b533-4db3-bd7a-58b7e2aadb76.jpeg); */
+    background-image: url(../img/app_bg-1024x683.jpg);
 }
 #wrap{
-  margin-top: 20rem;
+  margin-top: 12rem;
 }
 
 .hero .container-fluid {
