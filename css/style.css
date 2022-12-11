@@ -1323,6 +1323,15 @@ a:focus {
 .contact .container-fluid {
     background: url(../img/contact.jpg) left center no-repeat;
     background-size: contain;
+    /* width: 100%; */
+    height: 50rem;
+}
+.pop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200rem;
+  height: 50rem;
 }
 
 .contact .contact-form {
@@ -1381,6 +1390,18 @@ a:focus {
     font-size: 14px;
     font-style: italic;
     color: #ffffff;
+}
+.container-fluid h1{
+  margin-left: 850px;
+  margin-top: 6rem;
+  position: absolute;
+  color: #fff;
+}
+.container-fluid p{
+  margin-left: 850px;
+  margin-top: 10rem;
+  position: absolute;
+  color: #fff;
 }
 
 @media (max-width: 767.98px) {
