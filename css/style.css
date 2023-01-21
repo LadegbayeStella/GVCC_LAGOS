@@ -237,8 +237,19 @@ a:focus {
     }
 }
 
+@media (max-width: 320px) {
+    .navbar {
+        width: 80%;
+        overflow: hidden;
+        margin-left: 4rem;
+        padding: 15px;
+        background: #ffffff !important;
+    }
+}
+
 @media (max-width: 991.98px) {
     .navbar {
+        width: 100%;
         padding: 15px;
         background: #ffffff !important;
     }
@@ -277,6 +288,16 @@ a:focus {
     background-size: cover;
     /* background-image: url(../img/2cb6ab05-b533-4db3-bd7a-58b7e2aadb76.jpeg); */
     background-image: url(../img/app_bg-1024x683.jpg);
+}
+
+@media (max-width: 320px) {
+    .hero {
+        height: 50%;
+    }
+
+    body {
+        position: relative;
+    }
 }
 
 #wrap {
@@ -830,7 +851,11 @@ a:focus {
     .service .service-text p {
         font-size: 14px;
     }
+    #together-link{
+        display: block;
+    }
 }
+
 
 
 /*******************************/
@@ -1235,7 +1260,11 @@ a:focus {
         line-height: 18px;
         margin-bottom: 10px;
     }
+    #together-link{
+        display: block;
+    }
 }
+
 
 
 /*******************************/
@@ -1266,6 +1295,9 @@ a:focus {
     position: relative;
     margin: 0 15px;
     text-align: center;
+    width: 500px;
+    height: 300px;
+    margin: auto;
 }
 
 .testimonial .testimonial-img {
@@ -1285,10 +1317,13 @@ a:focus {
 .testimonial .testimonial-text {
     position: relative;
     margin-top: -70px;
-    padding: 65px 35px 30px 35px;
+    padding: 7px 35px 30px 35px;
     text-align: center;
     background: #ffffff;
-    border-radius: 500px;
+    box-shadow: 0px 2px 4px #ffff;
+    border-radius: 10px;
+    font-size: 3rem;
+
 }
 
 .testimonial .testimonial-item p {
@@ -1338,11 +1373,11 @@ a:focus {
     background: #8b14a6;
 }
 
-.contact .container-fluid {
+#contact-img {
     background: url(../img/contact.jpg) left center no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 50%;
-    height: 100vh;
+    /* height: 100vh; */
     margin-left: 0;
 }
 
@@ -1360,7 +1395,7 @@ a:focus {
     background: #8b14a6;
 }
 
-.contact .contact-form input {
+/* .contact .contact-form input {
     color: #ffffff;
     padding: 15px 0;
     background: none;
@@ -1426,7 +1461,7 @@ a:focus {
     color: #fff;
     font-size: 1rem;
     line-height: 2;
-}
+} */
 
 /* .container-fluid h1{ */
 /* margin-left: 850px;
@@ -1449,8 +1484,12 @@ a:focus {
     .contact .contact-form {
         padding: 90px 0;
     }
-    body{
+
+    body {
         overflow-x: hidden;
+    }
+    #together-link{
+        display: block;
     }
 }
 
@@ -1832,8 +1871,15 @@ a:focus {
 
 }
 
-@media (max-width:600px){
-    body{
-        overflow: hidden;
+@media (max-width:320px) {
+    body {
+        overflow-x: hidden;
     }
+}
+
+.google {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

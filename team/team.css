@@ -259,7 +259,7 @@ overflow: hidden;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-background-image: url(../img/app_bg-1024x683.jpg);
+background-image: url(../img/l-slide1.jpg);
 }
 #wrap{
 margin-top: 2rem;
@@ -1746,5 +1746,5 @@ border-color: transparent #dddddd transparent transparent;
 #footer .social-links a:hover {
   background: #800;
   color: #fff;
-  text-decoration: none;
+  text-decoration: none;
 }
